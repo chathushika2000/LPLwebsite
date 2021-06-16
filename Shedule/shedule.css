@@ -1,0 +1,246 @@
+.heading {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(#00408c, #cdd6e0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+  background-size: 100% 100%;
+}
+#introVideo video {
+  top: 150;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.videoText {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-80%, -120%);
+  font-size: 90px;
+  color: white;
+  font-family: fantasy;
+}
+#Titles {
+  height: 400px;
+}
+.team {
+  margin-top: 2%;
+  width: 300px;
+  margin-left: 5%;
+  float: left;
+  height: 337px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.team img {
+  height: 337px;
+}
+.team:hover {
+  box-shadow: 2px 4px 30px 5px black;
+}
+
+.container {
+  background-color: rgb(245, 225, 198);
+  margin-left: 2%;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 93%;
+}
+.container:hover {
+  box-shadow: 2px 4px 30px 5px black;
+}
+
+.in-content {
+  margin-left: 15px;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: 300;
+}
+#container1,
+#container2,
+#container3 {
+  margin-top: 30px;
+}
+.button {
+  cursor: pointer;
+  margin-top: -50px;
+  margin-right: 100px;
+  width: 120px;
+  height: 50px;
+  color: black;
+  background-color: lightgray;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #f1f50a;
+  color: black;
+  box-shadow: 2px 3px silver;
+}
+
+.navigation_bar { 
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0,0, 0.8);
+  padding: 0;
+  }
+
+nav ul{
+  display: inline;
+  float: right;
+  position: relative;
+  }
+
+
+nav ul li{
+  float: right;
+  cursor: pointer;
+  list-style: none;
+  }
+
+nav ul li a{
+  text-decoration: none;
+  padding: auto;
+  font-size: 22px;
+  margin: 0 25px;
+  position: relative;
+  color: white;
+}
+
+nav ul li a:before,nav ul li a:after{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color:white;
+  left:0;
+  transform: scaleX(0);
+  transition : all 0.5s;
+}
+          
+nav ul li a:before{
+  top:-5px;
+  transform-origin: left;
+}
+
+nav ul li a:after{
+  bottom:-6px;
+  transform-origin: right;
+}
+              
+nav ul li a:hover:before,
+nav ul li a:hover:after{
+  transform: scaleX(1);
+}
+
+#logo{
+  margin-left: 10%;
+  height: 100px;
+}
+
+#logoname{
+  color: white;
+  float: right;
+  margin-left: 60%;
+  display:  inline;
+  margin-top: -90px;
+}
+
+#footer{
+  position: unset;
+  bottom: -260px;
+  background-color: #000;
+  width: 100%;
+  height: 150px;
+
+}
+
+#slpl{
+  color: #fff;
+  margin-top: 65px;
+  margin-left: 25px;
+  display: inline;
+  float: left;
+  position: relative;
+}
+
+.spon{
+  display: inline;
+  float: left;
+  position: relative;
+  height: 50px;
+  padding-left: 20px;
+}
+
+#sponsor1{
+  margin-top: 20px;
+  float: left;
+  margin-left: 120px;
+
+}
+
+#sponsor2{
+  float: left;
+  margin-top: 90px;
+  margin-left: -325px;
+}
+
+#teams{
+  color:white;
+  font-style: italic;
+}
+
+#team1{
+  line-height: 35px;
+  float: left;
+  margin-left: 120px;
+}
+
+#team2{
+  line-height: 35px;
+  float: left;
+  margin-left: 70px;
+}
+
+#social{
+  margin-top: 2%;
+  position: relative;
+  text-align: center;
+  margin-left: 75%;
+  /* padding: 20px; */
+
+}
+
+#fb{
+  padding-left: 25px;
+  height: 50px;
+}
+
+#insta{
+  height: 55px;
+  padding-left: 25px;
+}
+
+#twitter{
+  padding-top: 15px;
+  height: 65px;
+  padding-left: 17px;
+}
