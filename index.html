@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="Main.css" rel="stylesheet" type="text/css">
+
+
+    <title>Main Page</title>
+</head>
+
+<body>
+    <div class="navigation_bar">
+        <div id="logodiv">
+            <a href="Main.html"><img src="logo.png" id="logo"></a>
+            <p id="logoname">Sri Lanka<br>Premier<br>League</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Shedule/shedule.html">Schedule</a></li>
+                <li><a href="best performance/best_performan.html">Stats</a></li>
+                <li><a href="Points table/table.html">Points Table</a></li>
+                <li><a href="../news/news.html">News</a></li>
+                <li><a href="gallery/gallery.html">Photos</a></li>
+                <li><a href="#">Home</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="main_page">
+
+        <div class="images">
+            <img src="slpl.jpg" class="slideshow">
+        </div>
+        <div class="images">
+            <img src="lpl2.jpg" class="slideshow">
+        </div>
+        <div class="images">
+            <img src="download.jpg" class="slideshow">
+        </div>
+        <div class="images">
+            <img src="more.jpg" class="slideshow">
+        </div>
+
+
+        <div id="pointsdiv">
+            <img src="sched1.png" alt="point tbl" id="points">
+            <a href="Points table/table.html">
+                <div id="viewtable">view table</div>
+            </a>
+        </div>
+
+    </div>
+
+    <div id="coming_soon">
+        <p id="coming_p">Coming soon<br>21st November 2020</p>
+    </div>
+
+    <div id="footer">
+        <p id="slpl">FOLLOW #SLPL</p>
+
+        <div id="sponsor1">
+            <img src="slc.png" alt="slc" class="spon" id="slc">
+            <img src="cina.png" alt="iit" class="spon" id="cina">
+            <img src="hut.png" alt="iit" class="spon" id="hut">
+        </div>
+
+        <div id="sponsor2">
+            <img src="coc.png" alt="iit" class="spon" id="coc">
+            <img src="dia.png" alt="iit" class="spon" id="dia">
+            <img src="iit.jpg" alt="iit" class="spon" id="iit">
+        </div>
+
+        <div id="teams">
+            <p id="team1">Jaffna Stallions<br> Dambulla Hawks<br> Galle Gladiators</p>
+            <p id="team2">Colombo Kings<br> Kandy Tuskers</p>
+        </div>
+
+        <div id="social">
+            <a href="https://www.facebook.com/IPL/" target="_1" title="Facebook"><img src="fb.png" id="fb"
+                    class="sm"></a>
+            <a href="https://www.instagram.com/explore/tags/ipl/?hl=en" target="_2" title="Instagram"><img src="ig.png"
+                    id="insta" class="sm"></a>
+            <a href="https://twitter.com/IPL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_3"
+                title="Twitter"><img src="twitter.png" id="twitter" class="sm"></a>
+        </div>
+
+
+    </div>
+
+</body>
+
+
+<script>
+    var slideno = 0;
+    displaySlides();
+
+    function displaySlides() {  //background image slideshow
+        var i;
+        var slides = document.getElementsByClassName("images");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideno++;
+        if (slideno > slides.length) { slideno = 1 }
+        slides[slideno - 1].style.display = "block";
+        setTimeout(displaySlides, 3000);
+    }
+
+</script>
+
+</html>
