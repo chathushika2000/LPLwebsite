@@ -1,0 +1,227 @@
+#heading {
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+}
+.team {
+  position: absolute;
+  right: 22%;
+  top: 28%;
+}
+#cricket {
+  border-radius: 20px;
+  border: 5px solid white;
+  margin-right: 10px;
+}
+.news-heading {
+  margin-left: 20px;
+}
+.team p {
+  margin-top: 175px;
+  width: 400px;
+  letter-spacing: 1px;
+  line-height: 50px;
+  font-size: 32px;
+  font-family: fantasy;
+  margin-left: 20%;
+}
+.info {
+  margin-top: 25px;
+  width: 800px;
+  height: 200px;
+  background-color: #efe9b0;
+  margin-left: 50px;
+  box-shadow: 2px 2px solid black;
+  border-radius: 15px;
+  transition: transform 0.3s ease-out;
+  border: 3px solid grey;
+}
+
+#cricket1,
+#cricket2,
+#cricket3 {
+  margin-top: 25px;
+  width: 150px;
+  height: 150px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.team1 {
+  float: right;
+  margin-top: -130px;
+  margin-right: 80px;
+  font-size: 30px;
+}
+#info2 {
+  margin-left: 40%;
+}
+
+body {
+  background-image: linear-gradient(#00408c, #cdd6e0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+  background-size: 100% 100%;
+}
+
+.info:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+
+.navigation_bar { 
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0,0, 0.8);
+  padding: 0;
+  }
+
+nav ul{
+  display: inline;
+  float: right;
+  position: relative;
+  }
+
+
+nav ul li{
+  float: right;
+  cursor: pointer;
+  list-style: none;
+  }
+
+nav ul li a{
+  text-decoration: none;
+  padding: auto;
+  font-size: 22px;
+  margin: 0 25px;
+  position: relative;
+  color: white;
+}
+
+nav ul li a:before,nav ul li a:after{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color:white;
+  left:0;
+  transform: scaleX(0);
+  transition : all 0.5s;
+}
+          
+nav ul li a:before{
+  top:-5px;
+  transform-origin: left;
+}
+
+nav ul li a:after{
+  bottom:-6px;
+  transform-origin: right;
+}
+              
+nav ul li a:hover:before,
+nav ul li a:hover:after{
+  transform: scaleX(1);
+}
+
+#logo{
+  margin-left: 10%;
+  height: 100px;
+}
+
+#logoname{
+  color: white;
+  float: right;
+  margin-left: 60%;
+  display:  inline;
+  margin-top: -90px;
+}
+
+#footer{
+  position: unset;
+  bottom: -260px;
+  background-color: #000;
+  width: 100%;
+  height: 150px;
+
+}
+
+#slpl{
+  color: #fff;
+  margin-top: 65px;
+  margin-left: 25px;
+  display: inline;
+  float: left;
+  position: relative;
+}
+
+.spon{
+  display: inline;
+  float: left;
+  position: relative;
+  height: 50px;
+  padding-left: 20px;
+}
+
+#sponsor1{
+  margin-top: 20px;
+  float: left;
+  margin-left: 120px;
+
+}
+
+#sponsor2{
+  float: left;
+  margin-top: 90px;
+  margin-left: -325px;
+}
+
+#teams{
+  color:white;
+  font-style: italic;
+}
+
+#team1{
+  line-height: 35px;
+  float: left;
+  margin-left: 120px;
+}
+
+#team2{
+  line-height: 35px;
+  float: left;
+  margin-left: 70px;
+}
+
+#social{
+  margin-top: 2%;
+  position: relative;
+  text-align: center;
+  margin-left: 75%;
+  /* padding: 20px; */
+
+}
+
+#fb{
+  padding-left: 25px;
+  height: 50px;
+}
+
+#insta{
+  height: 55px;
+  padding-left: 25px;
+}
+
+#twitter{
+  padding-top: 15px;
+  height: 65px;
+  padding-left: 17px;
+}
